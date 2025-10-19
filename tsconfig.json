@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "es2020",
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "target": "ES2022",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2016", "es2016.array.include", "es2017.object", "es2018.promise", "dom"],
+    "strict": false, 
+    "noImplicitAny": false, 
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": false, 
+    "strictNullChecks": false, 
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false, 
+    "strictBindCallApply": true, 
+    "noImplicitOverride": false, 
+    "noImplicitReturns": false, 
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "useDefineForClassFields": false,
+    "skipLibCheck": true
+  },
+  "angularCompilerOptions": {
+    "strictTemplates": false, 
+    "strictInputAccessModifiers": false,
+    "strictInjectionParameters": true
+  }
+}
